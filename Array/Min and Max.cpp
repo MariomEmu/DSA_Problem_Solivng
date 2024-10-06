@@ -1,5 +1,4 @@
 /// In the name of Allah
-/// google interview question
 
 #include<bits/stdc++.h>
 using namespace std;
