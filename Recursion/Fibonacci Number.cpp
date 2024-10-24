@@ -24,7 +24,7 @@ int main()
 
     int n;
     cin>>n;
-    /// Here, let’s take the value of N to be 4.
+    /// Here, letâ€™s take the value of N to be 4.
     cout<<fibonacci(n)<<endl;
 
     return 0;
@@ -34,3 +34,29 @@ int main()
 
 Space Complexity: O(N) { At maximum there could be N function calls waiting in the recursion stack since we need to calculate the Nth Fibonacci number for which we also need to calculate (N-1) Fibonacci numbers before it }.
 */
+#include<bits/stdc++.h>
+using namespace std;
+
+int fibo ( int n)
+{
+    if( n <= 1)
+    {
+        return n;
+    }
+
+  return fibo(n-1) + fibo (n-2);
+
+}
+
+
+int main()
+{
+    int n;
+    cin>>n;
+
+   cout<< fibo(n);
+
+
+
+    return 0;
+}
