@@ -6,7 +6,7 @@ using namespace std;
 
      //base case
      if( n <= 1 ) return 1;
-     return n * fact( n - 1);
+     return n * fact( n - 1);  //Functional Recursion
  }
 
 
@@ -19,3 +19,8 @@ int main(){
   int factorial = fact( n );
   cout<<factorial<<" ";
 }
+
+/*
+TC = O(n)
+SC = O(n)
+*/
