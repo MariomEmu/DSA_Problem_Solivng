@@ -7,7 +7,7 @@ using namespace std;
       //base case
       if( i > n ) return 0;
 
-      return a[i] + sumArray(a, i+1,n);
+      return a[i] + sumArray(a, i+1,n);  ///Functional Recursion
   }
 
 
