@@ -7,6 +7,7 @@ bool isPalindrom( int i, string& s)
      /// Base Condition
     /// If i exceeds half of the string means all the elements
     /// are compared, we return true.
+     ///using 1 pointer
 
     if( i >= s.length()/2) {
         return true;
