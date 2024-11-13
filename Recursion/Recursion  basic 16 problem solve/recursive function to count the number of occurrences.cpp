@@ -1,3 +1,9 @@
+/*
+ C++ program to implement a recursive function to count the number of occurrences of a specific element in an array of integers.
+ since this does not mention which type of array, an unsorted array is assumed.
+*/
+
+
 #include<iostream>
 using namespace std;
 
