@@ -1,3 +1,10 @@
+/*
+The Euclidean Algorithm is a method for finding the greatest common divisor of two numbers. 
+It operates on the principle that the GCD of two numbers remains the same even if the smaller number is subtracted from the larger number.
+*/
+
+
+
 #include <iostream>
 using namespace std;
 
