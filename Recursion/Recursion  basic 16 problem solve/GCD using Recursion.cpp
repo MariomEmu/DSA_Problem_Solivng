@@ -24,3 +24,6 @@ int main()
 
     return 0;
 }
+
+/*Tc (a,b)=O(log(min(a,b)))*/
+
