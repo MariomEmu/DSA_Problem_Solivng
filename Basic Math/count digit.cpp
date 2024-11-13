@@ -47,7 +47,7 @@ int main() {
    */
 
 
-///another optimized way TC is O(1) , SC = o(1) in below
+///another optimized way TC is O(1) , SC = o(1) in below which is just digit count not full same above part
 
 
 
