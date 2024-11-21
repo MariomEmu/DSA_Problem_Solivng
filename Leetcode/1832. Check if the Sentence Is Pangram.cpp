@@ -17,6 +17,10 @@ public:
 
    }
 
+
+//TC = o(n) + o(26) = o(n) ;   cz o(26) is nothing but constant time nature
+//SC = o(1) constant time
+
    for( int i = 0; i <= 25; i++)
    {
     if( frq[i] == 0)
