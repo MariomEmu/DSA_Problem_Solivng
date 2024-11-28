@@ -27,7 +27,11 @@ Space Complexity: O(1).
 */
 
 
-
+/*
+Idea of solution
+1. transpose the matrix
+2. then reverse the row which has transposed
+*/
 
 
 
